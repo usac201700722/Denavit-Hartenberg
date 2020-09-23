@@ -1,3 +1,8 @@
+""" Autor: Sergio Augusto León Urrutia
+    Fecha: Septiembre de 2020
+    Programa: Matriz resultante de la tabla de Denavit-hartenberg
+"""
+
 import numpy as np # Importamos numpy como el alias np
 import math
 """
@@ -36,6 +41,7 @@ A_12 = traslacion(0,0,2,math.pi/3)
 A_23 = traslacion(1,math.pi/2,1,0)
 
 T=A_01*A_12*A_23
+
 print("\n")
 print("************RESULTADO**************")
 print(T)    #Esto imprime la matriz T 
